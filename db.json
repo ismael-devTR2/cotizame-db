@@ -4,26 +4,25 @@
 	// /api/requests/invitations?Ficha={Ficha del empleado}?filters={}
 	// /api/requests/recommendations?Ficha={Ficha del empleado}?filters={}
 	// /api/requests/?filters={}
-	"requests": {
-		"participating": [{
-			"id": "133718-17",
-			"status": 0, //Disponible
-			"isFav": true,
-			"best_offer_id": "1",
-			"product": "Motores de Helicóptero Modelo H1337-B",
-			"currency": "MXN",
-			"end_time": "2020-12-25T06:00:00.000Z",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
-			"quantity": 17,
-			"technical_evaluation": true,
-			"um": "PZA",
-			"type": "Material",
-			"comments": []
-		}, {
+	"participating": [{
+		"id": "133718-17",
+		"status": 0, //Disponible
+		"isFav": true,
+		"best_offer_id": 1,
+		"product": "Motores de Helicóptero Modelo H1337-B",
+		"currency": "MXN",
+		"end_time": "2020-12-25T06:00:00.000Z",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+		"quantity": 17,
+		"technical_evaluation": true,
+		"um": "PZA",
+		"type": "Material",
+	}, {
+	"requests": [{
 			"status": 0,
 			"isFav": false,
 			"id": "133718-18",
-			"best_offer_id": "2",
+			"best_offer_id": 2,
 			"product": "Motores de Helicóptero Modelo H1337-B",
 			"currency": "MXN",
 			"end_time": "2020-12-25T06:00:00.000Z",
@@ -32,12 +31,11 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}, {
 			"status": 1, //Evaluación
 			"isFav": false,
 			"id": "133718-21",
-			"best_offer_id": "3",
+			"best_offer_id": 3,
 			"product": "Motores de Helicóptero Modelo H1337-B",
 			"currency": "MXN",
 			"end_time": "2020-12-13T06:00:00.000Z",
@@ -46,7 +44,6 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}],
 		"favorites": [{
 			"id": "133718-19",
@@ -61,7 +58,6 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}, {
 			"id": "133718-22",
 			"status": 0,
@@ -75,7 +71,6 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}],
 		"invitations": [{
 			"status": 0,
@@ -88,7 +83,6 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}, {
 			"status": 0,
 			"id": "133718-23",
@@ -100,7 +94,6 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}],
 		"recommendations": [{
 			"status": 0,
@@ -113,9 +106,7 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material",
-			"comments": []
 		}],
-	},
 	// /api/offers
 	"offers": [{
 		"id": 0,
