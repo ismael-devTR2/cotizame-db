@@ -102,6 +102,135 @@
 			"um": "PZA",
 			"type": "Material"
 		}]
+	}],
+	"offers": [{
+		"id": 6,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 1,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 2,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 3,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 4,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 5,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}],
+	"alerts": [{
+		"id": 2,
+		"title": "Tu cotización #1337 está en segundo lugar, aún puedes ofrecer un mejor precio",
+		"description": "La subasta está a punto de terminar. ¡Aprovecha para actualizar tu precio!",
+		"request_id": "133718-17",
+		"sent_at": "2019-12-14T06:00:00.000Z"
+	}, {
+		"id": 1,
+		"title": "Tu cotización #1338 está en segundo lugar, aún puedes ofrecer un mejor precio",
+		"description": "La subasta está a punto de terminar. ¡Aprovecha para actualizar tu precio!",
+		"request_id": "133718-18",
+		"sent_at": "2019-12-14T06:00:00.000Z"
+	}],
+	"categories":[{
+		"id": 3,
+		"name": "Motores de Helicóptero",
+		"is_suscribed": true
+	}, {
+		"id": 1,
+		"name": "Tubería",
+		"is_suscribed": false
+	}, {
+		"id": 2,
+		"name": "Botas de seguridad",
+		"is_suscribed": true
+	}],
+	"comments": [{
+		"id": 1,
+		"request_id": "133718-17",
+		"text": "Acabamos de enviar nuestra oferta, está genial la aplicación.",
+		"profile_image": "",
+		"sender_id": 7,
+		"sender_name": "Proveedor #7",
+		"sent_at": "2019-12-16T06:00:00.000Z"
+	}, {
+		"id": 2,
+		"request_id": "133718-17",
+		"text": "Me agrada Cotizame App",
+		"profile_image": "",
+		"sender_id": 1,
+		"sender_name": "Proveedor #1",
+		"sent_at": "2019-12-16T06:30:00.000Z"
+	}, {
+		"id": 3,
+		"request_id": "133718-17",
+		"text": ";)",
+		"profile_image": "",
+		"sender_id": 7,
+		"sender_name": "Proveedor #7",
+		"sent_at": "2019-12-16T07:30:00.000Z"
 	}]
-	
 }
