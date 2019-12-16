@@ -6,7 +6,7 @@
 		"product": "Motores de Helicóptero Modelo H1337-B",
 		"price": "1337",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z",
+		"endTime": "2019-12-25T06:00:00.000Z"
 	}, {
 		"status": 0,
 		"id": "133718-18",
@@ -14,7 +14,7 @@
 		"product": "Motores de Helicóptero Modelo H1337-B",
 		"price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z",
+		"endTime": "2019-12-25T06:00:00.000Z"
 	}, {
 		"status": 2,
 		"id": "133718-18",
@@ -22,7 +22,7 @@
 		"product": "Motores de Helicóptero Modelo H1337-B",
 		"price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-13T06:00:00.000Z",
+		"endTime": "2019-12-13T06:00:00.000Z"
 	}, {
 		"id": "133718-19",
 		"status": 0,
@@ -30,7 +30,7 @@
 		"product": "Motores de Helicóptero Modelo H1337-B",
 		"price": "1337",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z",
+		"endTime": "2019-12-25T06:00:00.000Z"
 	}, {
 		"status": 0,
 		"id": "133718-20",
@@ -38,6 +38,6 @@
 		"product": "Motores de Helicóptero Modelo H1337-B",
 		"price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z",
+		"endTime": "2019-12-25T06:00:00.000Z"
 	}]
 }
