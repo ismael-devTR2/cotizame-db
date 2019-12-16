@@ -1,5 +1,4 @@
 {
-	"requests": {
 		"participating": [{
 			"id": "133718-17",
 			"status": 0,
@@ -101,10 +100,9 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material"
-		}]
-	},
+		}],
 	"offers": [{
-		"id": 0,
+		"id": 6,
 		"unitary_price": "40000",
 		"currency": "MXN",
 		"delivery_days": "2",
@@ -183,7 +181,7 @@
 		"supplier_id": 4
 	}],
 	"alerts": [{
-		"id": 0,
+		"id": 2,
 		"title": "Tu cotización #1337 está en segundo lugar, aún puedes ofrecer un mejor precio",
 		"description": "La subasta está a punto de terminar. ¡Aprovecha para actualizar tu precio!",
 		"request_id": "133718-17",
@@ -196,7 +194,7 @@
 		"sent_at": "2019-12-14T06:00:00.000Z"
 	}],
 	"categories":[{
-		"id": 0,
+		"id": 3,
 		"name": "Motores de Helicóptero",
 		"is_suscribed": true
 	}, {
@@ -209,7 +207,7 @@
 		"is_suscribed": true
 	}],
 	"comments": [{
-		"id": 0,
+		"id": 1,
 		"request_id": "133718-17",
 		"text": "Acabamos de enviar nuestra oferta, está genial la aplicación.",
 		"profile_image": "",
@@ -217,7 +215,7 @@
 		"sender_name": "Proveedor #7",
 		"sent_at": "2019-12-16T06:00:00.000Z"
 	}, {
-		"id": 1,
+		"id": 2,
 		"request_id": "133718-17",
 		"text": "Me agrada Cotizame App",
 		"profile_image": "",
@@ -225,7 +223,7 @@
 		"sender_name": "Proveedor #1",
 		"sent_at": "2019-12-16T06:30:00.000Z"
 	}, {
-		"id": 2,
+		"id": 3,
 		"request_id": "133718-17",
 		"text": ";)",
 		"profile_image": "",
