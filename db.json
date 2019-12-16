@@ -1,4 +1,5 @@
 {
+	"requests": [{
 		"participating": [{
 			"id": "133718-17",
 			"status": 0,
@@ -100,7 +101,8 @@
 			"technical_evaluation": true,
 			"um": "PZA",
 			"type": "Material"
-		}],
+		}]
+	}],
 	"offers": [{
 		"id": 6,
 		"unitary_price": "40000",
