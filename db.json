@@ -1,24 +1,19 @@
 {
-	// /api/requests/participating?Ficha={Ficha del empleado}?filters={}
-	// /api/requests/favorites?Ficha={Ficha del empleado}?filters={}
-	// /api/requests/invitations?Ficha={Ficha del empleado}?filters={}
-	// /api/requests/recommendations?Ficha={Ficha del empleado}?filters={}
-	// /api/requests/?filters={}
-	"participating": [{
-		"id": "133718-17",
-		"status": 0, //Disponible
-		"isFav": true,
-		"best_offer_id": 1,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"currency": "MXN",
-		"end_time": "2020-12-25T06:00:00.000Z",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
-		"quantity": 17,
-		"technical_evaluation": true,
-		"um": "PZA",
-		"type": "Material",
-	}, {
-	"requests": [{
+	"requests": {
+		"participating": [{
+			"id": "133718-17",
+			"status": 0,
+			"isFav": true,
+			"best_offer_id": 1,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material"
+		}, {
 			"status": 0,
 			"isFav": false,
 			"id": "133718-18",
@@ -30,9 +25,9 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}, {
-			"status": 1, //Evaluación
+			"status": 1,
 			"isFav": false,
 			"id": "133718-21",
 			"best_offer_id": 3,
@@ -43,7 +38,7 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}],
 		"favorites": [{
 			"id": "133718-19",
@@ -57,7 +52,7 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}, {
 			"id": "133718-22",
 			"status": 0,
@@ -70,7 +65,7 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}],
 		"invitations": [{
 			"status": 0,
@@ -82,7 +77,7 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}, {
 			"status": 0,
 			"id": "133718-23",
@@ -93,7 +88,7 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
+			"type": "Material"
 		}],
 		"recommendations": [{
 			"status": 0,
@@ -105,9 +100,9 @@
 			"quantity": 17,
 			"technical_evaluation": true,
 			"um": "PZA",
-			"type": "Material",
-		}],
-	// /api/offers
+			"type": "Material"
+		}]
+	},
 	"offers": [{
 		"id": 0,
 		"unitary_price": "40000",
@@ -200,7 +195,6 @@
 		"request_id": "133718-18",
 		"sent_at": "2019-12-14T06:00:00.000Z"
 	}],
-	// api/categories/ficha...
 	"categories":[{
 		"id": 0,
 		"name": "Motores de Helicóptero",
@@ -214,12 +208,11 @@
 		"name": "Botas de seguridad",
 		"is_suscribed": true
 	}],
-	// /api/comments/requestId....
 	"comments": [{
 		"id": 0,
 		"request_id": "133718-17",
 		"text": "Acabamos de enviar nuestra oferta, está genial la aplicación.",
-		"profile_image": "", //Image url or base64
+		"profile_image": "",
 		"sender_id": 7,
 		"sender_name": "Proveedor #7",
 		"sent_at": "2019-12-16T06:00:00.000Z"
@@ -227,7 +220,7 @@
 		"id": 1,
 		"request_id": "133718-17",
 		"text": "Me agrada Cotizame App",
-		"profile_image": "", //Image url or base64
+		"profile_image": "",
 		"sender_id": 1,
 		"sender_name": "Proveedor #1",
 		"sent_at": "2019-12-16T06:30:00.000Z"
@@ -235,7 +228,7 @@
 		"id": 2,
 		"request_id": "133718-17",
 		"text": ";)",
-		"profile_image": "", //Image url or base64
+		"profile_image": "",
 		"sender_id": 7,
 		"sender_name": "Proveedor #7",
 		"sent_at": "2019-12-16T07:30:00.000Z"
