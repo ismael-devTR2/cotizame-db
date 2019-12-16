@@ -1,43 +1,252 @@
 {
-	"requests": [{
-		"id": "133718-17",
-		"status": 0,
-		"isFav": false,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"price": "1337",
+	// /api/requests/participating?Ficha={Ficha del empleado}?filters={}
+	// /api/requests/favorites?Ficha={Ficha del empleado}?filters={}
+	// /api/requests/invitations?Ficha={Ficha del empleado}?filters={}
+	// /api/requests/recommendations?Ficha={Ficha del empleado}?filters={}
+	// /api/requests/?filters={}
+	"requests": {
+		"participating": [{
+			"id": "133718-17",
+			"status": 0, //Disponible
+			"isFav": true,
+			"best_offer_id": "1",
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}, {
+			"status": 0,
+			"isFav": false,
+			"id": "133718-18",
+			"best_offer_id": "2",
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}, {
+			"status": 1, //Evaluación
+			"isFav": false,
+			"id": "133718-21",
+			"best_offer_id": "3",
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-13T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}],
+		"favorites": [{
+			"id": "133718-19",
+			"status": 0,
+			"isFav": true,
+			"best_offer_id": 5,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}, {
+			"id": "133718-22",
+			"status": 0,
+			"isFav": true,
+			"best_offer_id": null,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"currency": "MXN",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}],
+		"invitations": [{
+			"status": 0,
+			"id": "133718-20",
+			"best_offer_id": null,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}, {
+			"status": 0,
+			"id": "133718-23",
+			"best_offer_id": null,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}],
+		"recommendations": [{
+			"status": 0,
+			"id": "133718-23",
+			"best_offer_id": null,
+			"product": "Motores de Helicóptero Modelo H1337-B",
+			"end_time": "2020-12-25T06:00:00.000Z",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies ipsum sed laoreet pulvinar. Maecenas porttitor dictum lectus. Phasellus a efficitur urna. In viverra gravida elit nec aliquam. Ut auctor congue malesuada. Duis id cursus elit. Maecenas fermentum, nisl vel sollicitudin lobortis, felis mi finibus lacus, ac egestas ante erat eu ante.",
+			"quantity": 17,
+			"technical_evaluation": true,
+			"um": "PZA",
+			"type": "Material",
+			"comments": []
+		}],
+	},
+	// /api/offers
+	"offers": [{
+		"id": 0,
+		"unitary_price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z"
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
 	}, {
-		"status": 0,
-		"id": "133718-18",
-		"isFav": false,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"price": "40000",
+		"id": 1,
+		"unitary_price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z"
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
 	}, {
-		"status": 2,
-		"id": "133718-18",
-		"isFav": false,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"price": "40000",
+		"id": 2,
+		"unitary_price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-13T06:00:00.000Z"
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
 	}, {
-		"id": "133718-19",
-		"status": 0,
-		"isFav": true,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"price": "1337",
+		"id": 3,
+		"unitary_price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z"
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
 	}, {
-		"status": 0,
-		"id": "133718-20",
-		"isFav": true,
-		"product": "Motores de Helicóptero Modelo H1337-B",
-		"price": "40000",
+		"id": 4,
+		"unitary_price": "40000",
 		"currency": "MXN",
-		"endTime": "2019-12-25T06:00:00.000Z"
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}, {
+		"id": 5,
+		"unitary_price": "40000",
+		"currency": "MXN",
+		"delivery_days": "2",
+		"min_offer": "30000",
+		"discount_factor": "0.2",
+		"commercial_conditions": "2 días de entrega",
+		"additional_costs": "Installation",
+		"comments": "",
+		"valid_until": "2020-12-31T06:00:00.000Z",
+		"request_id": "133718-20",
+		"supplier_id": 4
+	}],
+	"alerts": [{
+		"id": 0,
+		"title": "Tu cotización #1337 está en segundo lugar, aún puedes ofrecer un mejor precio",
+		"description": "La subasta está a punto de terminar. ¡Aprovecha para actualizar tu precio!",
+		"request_id": "133718-17",
+		"sent_at": "2019-12-14T06:00:00.000Z"
+	}, {
+		"id": 1,
+		"title": "Tu cotización #1338 está en segundo lugar, aún puedes ofrecer un mejor precio",
+		"description": "La subasta está a punto de terminar. ¡Aprovecha para actualizar tu precio!",
+		"request_id": "133718-18",
+		"sent_at": "2019-12-14T06:00:00.000Z"
+	}],
+	// api/categories/ficha...
+	"categories":[{
+		"id": 0,
+		"name": "Motores de Helicóptero",
+		"is_suscribed": true
+	}, {
+		"id": 1,
+		"name": "Tubería",
+		"is_suscribed": false
+	}, {
+		"id": 2,
+		"name": "Botas de seguridad",
+		"is_suscribed": true
+	}],
+	// /api/comments/requestId....
+	"comments": [{
+		"id": 0,
+		"request_id": "133718-17",
+		"text": "Acabamos de enviar nuestra oferta, está genial la aplicación.",
+		"profile_image": "", //Image url or base64
+		"sender_id": 7,
+		"sender_name": "Proveedor #7",
+		"sent_at": "2019-12-16T06:00:00.000Z"
+	}, {
+		"id": 1,
+		"request_id": "133718-17",
+		"text": "Me agrada Cotizame App",
+		"profile_image": "", //Image url or base64
+		"sender_id": 1,
+		"sender_name": "Proveedor #1",
+		"sent_at": "2019-12-16T06:30:00.000Z"
+	}, {
+		"id": 2,
+		"request_id": "133718-17",
+		"text": ";)",
+		"profile_image": "", //Image url or base64
+		"sender_id": 7,
+		"sender_name": "Proveedor #7",
+		"sent_at": "2019-12-16T07:30:00.000Z"
 	}]
 }
